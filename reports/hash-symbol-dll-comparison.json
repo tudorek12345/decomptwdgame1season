@@ -1,0 +1,84 @@
+{
+  "mode": "dll",
+  "functions": [
+    {
+      "name": "crc32",
+      "cases": 116572,
+      "failed": 0
+    },
+    {
+      "name": "hash_words",
+      "cases": 116561,
+      "failed": 0
+    },
+    {
+      "name": "crc64_string",
+      "cases": 116560,
+      "failed": 0
+    },
+    {
+      "name": "crc64_string_ascii_fold",
+      "cases": 116560,
+      "failed": 0
+    },
+    {
+      "name": "symbol_zero",
+      "cases": 50000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_from_text",
+      "cases": 50000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_copy",
+      "cases": 100000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_from_value",
+      "cases": 50000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_append",
+      "cases": 50000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_identity",
+      "cases": 50000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_compare32",
+      "cases": 50000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_from_string32",
+      "cases": 100000,
+      "failed": 0
+    },
+    {
+      "name": "symbol_assign_string32",
+      "cases": 100000,
+      "failed": 0
+    },
+    {
+      "name": "generated_tables",
+      "cases": 2,
+      "failed": 0
+    },
+    {
+      "name": "concurrent_hashes",
+      "cases": 800000,
+      "failed": 0
+    }
+  ],
+  "cases": 1866255,
+  "failed": 0,
+  "test_exe_sha256": "39a92ae0d263a5b6eb5c02840a530980ee749d084bb602c098cd6f70d73cc1ef",
+  "dll_sha256": "5bb3afc9e04df73fbe2cde97d90b65114748abb9b5397383df6a68b363138971"
+}

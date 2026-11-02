@@ -1,0 +1,377 @@
+{
+  "format_version": 1,
+  "publication": "source, tooling, metadata and artwork",
+  "research_commit": "9a6391f",
+  "bulk_reference_exports_included": false,
+  "game_binaries_or_assets_included": false,
+  "machine_code_oracle_headers_included": false,
+  "local_git_history_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "source": ".gitattributes",
+      "bytes": 198,
+      "sha256": "0da9a9a7f843e5ab2633fdf71b4dfa7374005d064d92b2aeba155b8d9418084f"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "source": "publication\\.github\\workflows\\build.yml",
+      "bytes": 820,
+      "sha256": "966f470cd7dd353fabcb33d449b748c9eaeee56d293bd07efa5ab249d77c8cdc"
+    },
+    {
+      "path": ".gitignore",
+      "source": "publication\\.gitignore",
+      "bytes": 267,
+      "sha256": "423fd7a071cdaa906a0d712c36978ae7d0d670fede0c3c9da48c89ba7b86bc3b"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "source": "publication\\.vscode\\tasks.json",
+      "bytes": 630,
+      "sha256": "5ed3f557fa4d780ee187bb1a6d7a3497f09c472814247de4993cc684e779a84e"
+    },
+    {
+      "path": "AGENTS.md",
+      "source": "publication\\AGENTS.md",
+      "bytes": 1331,
+      "sha256": "ed0a06a8813f538e1151858416319bb8e670631a7559fd80d1ab4811e37eda88"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "source": "CMakeLists.txt",
+      "bytes": 3599,
+      "sha256": "a62262a8851483c9ff5dc1096807800d8e6ccdef7d346d050216f7fc6533e30c"
+    },
+    {
+      "path": "CMakePresets.json",
+      "source": "CMakePresets.json",
+      "bytes": 751,
+      "sha256": "f04f541db3943341d3d9f0a2a9644c563997bfd814613d9dbe8cf3c5925fa815"
+    },
+    {
+      "path": "README.md",
+      "source": "README.md",
+      "bytes": 6338,
+      "sha256": "d23b0bb13c056ff4b10fe1890eb98e3a431ac6f42086fda646921144e1f54fd1"
+    },
+    {
+      "path": "decomptwdgame1season.code-workspace",
+      "source": "decomptwdgame1season.code-workspace",
+      "bytes": 234,
+      "sha256": "998c0bb4b5aba60708a69ce93dbb671a492576b50864cdb75f2ed2ef556fc4b3"
+    },
+    {
+      "path": "docs/ASSETS.md",
+      "source": "docs\\ASSETS.md",
+      "bytes": 1340,
+      "sha256": "cab90f5953f127904a112645eadd76982d3ac96e15e375997ddf663b74af43bc"
+    },
+    {
+      "path": "docs/LOCAL_RESEARCH.md",
+      "source": "docs\\LOCAL_RESEARCH.md",
+      "bytes": 3506,
+      "sha256": "054a5ce4ffb1aabbb928b95ac15b6da08bc4abcb323fa4a133bef7a36142bf3b"
+    },
+    {
+      "path": "docs/PROGRESS.md",
+      "source": "docs\\PROGRESS.md",
+      "bytes": 4007,
+      "sha256": "0934390ccab277d99ebb9ccc07cc22d3372e5662ad501cb033b03559748e9740"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "source": "docs\\ROADMAP.md",
+      "bytes": 3740,
+      "sha256": "09057271f24da5df529791696ca6ddc1e09f1bfa0847a3771acca54aa1d62c82"
+    },
+    {
+      "path": "docs/assets/source-recovery-banner.png",
+      "source": "docs\\assets\\source-recovery-banner.png",
+      "bytes": 2276157,
+      "sha256": "f03ef0221b3a56a5b768a59c6386af95a1d19ce4f3d0e1108663d58a0bd026ac"
+    },
+    {
+      "path": "docs/function-catalog.csv",
+      "source": "FUNCTIONS.csv (reference-body paths omitted)",
+      "bytes": 699739,
+      "sha256": "8a116c48746d7febe45f072f46b9f8ac11e5cce410bc0ab67da5611eda8a9d36"
+    },
+    {
+      "path": "docs/progress.json",
+      "source": "docs\\progress.json",
+      "bytes": 1855,
+      "sha256": "e9bcebd2adc3d36495df067b2c380936beb58b798c7696f04de93d775e2062f3"
+    },
+    {
+      "path": "re/replacements.json",
+      "source": "re\\replacements.json",
+      "bytes": 3256,
+      "sha256": "00a66eee9d8fe89e8475b5737211a53101b5a16c7cda421f578944eebb91011b"
+    },
+    {
+      "path": "reconstructed/geometry.cpp",
+      "source": "reconstructed\\geometry.cpp",
+      "bytes": 802,
+      "sha256": "4af3dd0d3497976144820a293c63edb91b15c54f03858567d9bc48faa1bd0c26"
+    },
+    {
+      "path": "reconstructed/geometry.hpp",
+      "source": "reconstructed\\geometry.hpp",
+      "bytes": 303,
+      "sha256": "e33b0357b22234f8c9da2ec0840481fb49063a30ad7fce78d21dedc693370d7d"
+    },
+    {
+      "path": "reconstructed/hash.cpp",
+      "source": "reconstructed\\hash.cpp",
+      "bytes": 2218,
+      "sha256": "e467fa1e4aed68b815362d61e6ae65369948dd19ef4e6d0e4ebffa60531640e6"
+    },
+    {
+      "path": "reconstructed/hash.hpp",
+      "source": "reconstructed\\hash.hpp",
+      "bytes": 620,
+      "sha256": "84f0481bd947ff02b14397fcf3dd15937dd56eac31b6ed0d8f93e41832a8b8b5"
+    },
+    {
+      "path": "reconstructed/runtime_geometry.cpp",
+      "source": "reconstructed\\runtime_geometry.cpp",
+      "bytes": 928,
+      "sha256": "45057a1fb93881903078adf08713b8b9d36df3441b560828d511db93b8377f36"
+    },
+    {
+      "path": "reconstructed/runtime_geometry.def",
+      "source": "reconstructed\\runtime_geometry.def",
+      "bytes": 584,
+      "sha256": "ed38450ee1fde06ba4639fcae3d252a7f86adfd84128bf3698d26b6265ae9362"
+    },
+    {
+      "path": "reconstructed/runtime_hash_symbols.cpp",
+      "source": "reconstructed\\runtime_hash_symbols.cpp",
+      "bytes": 2025,
+      "sha256": "10b5669f5140af34233ee9bfe69b2a187bf728cad5531c7065b381606422fdd3"
+    },
+    {
+      "path": "reconstructed/symbol.cpp",
+      "source": "reconstructed\\symbol.cpp",
+      "bytes": 1782,
+      "sha256": "780701502e80e19fd00525fc1a01b853af654b54f32522f14cd18192b5b289d8"
+    },
+    {
+      "path": "reconstructed/symbol.hpp",
+      "source": "reconstructed\\symbol.hpp",
+      "bytes": 1140,
+      "sha256": "e436f155bbcca1d342b83984703891f9f6f5e3eab501ec9577a220cd7c2f7aeb"
+    },
+    {
+      "path": "reconstructed/telemetry.hpp",
+      "source": "reconstructed\\telemetry.hpp",
+      "bytes": 323,
+      "sha256": "66de1f73edd40072b7ffd9df04c3b3cc73e799db03aceefc8feeaf7b45d40ef9"
+    },
+    {
+      "path": "reports/binary-rebuild.json",
+      "source": "reports/binary-rebuild.json (workstation paths sanitized)",
+      "bytes": 224,
+      "sha256": "0b3b54efa71b19d9ff505603c3e9009c91d8fc25b89ffa9d53862186a831a367"
+    },
+    {
+      "path": "reports/capture-validation.json",
+      "source": "reports/capture-validation.json (workstation paths sanitized)",
+      "bytes": 3892,
+      "sha256": "48cda41c4a0c834f61ed5652e9bf861318d6f663615d59444c5616431f1c1226"
+    },
+    {
+      "path": "reports/current-runtime-acceptance.json",
+      "source": "reports/current-runtime-acceptance.json (workstation paths sanitized)",
+      "bytes": 1597,
+      "sha256": "09ed4dc750294e20e48ae0e6e6467fb0ddc2b9b696a5c581135a4062b5ca2a87"
+    },
+    {
+      "path": "reports/geometry-comparison.json",
+      "source": "reports/geometry-comparison.json (workstation paths sanitized)",
+      "bytes": 183,
+      "sha256": "e27a36987ad510d093561ca5ecc98f4ddc18eb7e9611453d408d500ee5f34095"
+    },
+    {
+      "path": "reports/geometry-contract.json",
+      "source": "reports/geometry-contract.json (workstation paths sanitized)",
+      "bytes": 673,
+      "sha256": "1bb6a4d95afb3e545bfdbb03bd494f046276287690d9269645372a6d53af0092"
+    },
+    {
+      "path": "reports/geometry-dll-comparison.json",
+      "source": "reports/geometry-dll-comparison.json (workstation paths sanitized)",
+      "bytes": 268,
+      "sha256": "d683012cd614e5288cdaf567d401913fe1532ddf4bd583c37072c645c9c1b6b4"
+    },
+    {
+      "path": "reports/hash-contract.json",
+      "source": "reports/hash-contract.json (workstation paths sanitized)",
+      "bytes": 4839,
+      "sha256": "a18061649542a3308828b4cf6c42f3933d2a0a3d1b9e42656d4f33d3298ca87c"
+    },
+    {
+      "path": "reports/hash-symbol-dll-comparison.json",
+      "source": "reports/hash-symbol-dll-comparison.json (workstation paths sanitized)",
+      "bytes": 1626,
+      "sha256": "27a033567950cdf99efaf5db5f082b6bdb07cc85da69f8b081348d33badc0019"
+    },
+    {
+      "path": "reports/hash-symbol-static-comparison.json",
+      "source": "reports/hash-symbol-static-comparison.json (workstation paths sanitized)",
+      "bytes": 1544,
+      "sha256": "7b0d16e15235f85d8306df96c37ea060fccb5807a3a5457c9e2aa368fd35b0d0"
+    },
+    {
+      "path": "reports/hybrid-build.json",
+      "source": "reports/hybrid-build.json (workstation paths sanitized)",
+      "bytes": 5101,
+      "sha256": "a751aff79c11762a147eb1a5f6e1ec76c8213c004cd2529e4ca3327a6b1137a0"
+    },
+    {
+      "path": "reports/native-coverage.json",
+      "source": "reports/native-coverage.json (workstation paths sanitized)",
+      "bytes": 507,
+      "sha256": "b242db1c3de7f7d4f22620ad155b7ef1995a961ef083d18f79682fe1d5a87e58"
+    },
+    {
+      "path": "reports/recovery-summary.json",
+      "source": "reports/recovery-summary.json (workstation paths sanitized)",
+      "bytes": 11644,
+      "sha256": "3fc7728777d81352c6c695d7ff72e37a5584af77c472b86cc7d5f1bed5c6a8a2"
+    },
+    {
+      "path": "reports/unowned-direct-calls.json",
+      "source": "reports/unowned-direct-calls.json (workstation paths sanitized)",
+      "bytes": 116,
+      "sha256": "8cb19b67ce1db18f04122233c049bdd0c079daf72ccf658f84c1dff990f033fa"
+    },
+    {
+      "path": "scripts/DeepExport.java",
+      "source": "scripts\\DeepExport.java",
+      "bytes": 10528,
+      "sha256": "36cfbbde014afaa267594687971a17ca3f0dce230cb56d1e4c6da6894304127b"
+    },
+    {
+      "path": "scripts/DiscoverTargets.java",
+      "source": "scripts\\DiscoverTargets.java",
+      "bytes": 1734,
+      "sha256": "7ba897e8a633eb279e680e8b4a7d87c50fd2adf6c7ac47d4d018d2e1e52267c7"
+    },
+    {
+      "path": "scripts/ExportRecovery.java",
+      "source": "scripts\\ExportRecovery.java",
+      "bytes": 7595,
+      "sha256": "234c1b1bdfb21e6c6b4bf0922e9c6f857e0e1adf0049b037333ffb175c162e43"
+    },
+    {
+      "path": "scripts/FinalizeEvidence.java",
+      "source": "scripts\\FinalizeEvidence.java",
+      "bytes": 6055,
+      "sha256": "ad7e067c9947d345d0ef25c565aa508ad45e30e6f79dcc271f03cb453c767f23"
+    },
+    {
+      "path": "scripts/RecoverHashSymbols.java",
+      "source": "scripts\\RecoverHashSymbols.java",
+      "bytes": 4713,
+      "sha256": "206540b6551b0dc69ac7e1ab88318e5af5bc6f06a808f480f15c5fd7bc6d6bf2"
+    },
+    {
+      "path": "scripts/ScanUnownedCalls.java",
+      "source": "scripts\\ScanUnownedCalls.java",
+      "bytes": 1925,
+      "sha256": "8feeb0bb685e5f9284f661235ae4319fb472f5c5480cfc2fd0d42f51a21b4849"
+    },
+    {
+      "path": "scripts/build_hybrid.py",
+      "source": "scripts\\build_hybrid.py",
+      "bytes": 6363,
+      "sha256": "d9eaceea3b7e8b23f079c4d09876b6fa844af10164128eef2c2b7bc0abcffdf8"
+    },
+    {
+      "path": "scripts/build_runtime_probe.py",
+      "source": "scripts\\build_runtime_probe.py",
+      "bytes": 4325,
+      "sha256": "6b6ce5604f96e9be87b344718dde2fe0a483fff881e3335e7ef55dec6df5d40f"
+    },
+    {
+      "path": "scripts/debug_runtime.py",
+      "source": "scripts\\debug_runtime.py",
+      "bytes": 7645,
+      "sha256": "998dc8daf093acebcbe0f4c6ddac66b11cfa75ba5c567766f9524a95608694bb"
+    },
+    {
+      "path": "scripts/disable_runtime_probe.py",
+      "source": "scripts\\disable_runtime_probe.py",
+      "bytes": 1095,
+      "sha256": "8ff566d27d0cb187fe943bda36a29a98ea960fb973547703f0cada33a5f3da25"
+    },
+    {
+      "path": "scripts/find_bindings.py",
+      "source": "scripts\\find_bindings.py",
+      "bytes": 1368,
+      "sha256": "d5c6aba1609045683a685e934d6176154dc1ad66cc50c55b86bd46e5163e886f"
+    },
+    {
+      "path": "scripts/prepare_geometry_fixture.py",
+      "source": "scripts\\prepare_geometry_fixture.py",
+      "bytes": 973,
+      "sha256": "cf0d4f43c5262d1ba9a2efa2485ea33a4941b03da26c35706e8e30a4e120f33e"
+    },
+    {
+      "path": "scripts/prepare_hash_fixture.py",
+      "source": "scripts\\prepare_hash_fixture.py",
+      "bytes": 5323,
+      "sha256": "e881a5e19b05ebe2c88de42f7569b4473362636f9f9bc9ff7042450af27f5cd5"
+    },
+    {
+      "path": "scripts/recover_rtti.py",
+      "source": "scripts\\recover_rtti.py",
+      "bytes": 3800,
+      "sha256": "01e260f029b8d3550b058126d70c9de2bcd2bd3199069c405c59a61c86c2b731"
+    },
+    {
+      "path": "tests/geometry_differential.cpp",
+      "source": "tests\\geometry_differential.cpp",
+      "bytes": 3361,
+      "sha256": "ba060e1d96de636b067e057beb92c521094228e43ed6364ad1b5ed6ce37ffc05"
+    },
+    {
+      "path": "tests/hash_symbol_differential.cpp",
+      "source": "tests\\hash_symbol_differential.cpp",
+      "bytes": 10537,
+      "sha256": "1f7452c4516e5c2cf1fad0e64baf81efa33a53e4a78041934597ad22aa67e800"
+    },
+    {
+      "path": "tests/runtime_probe.lua",
+      "source": "tests\\runtime_probe.lua",
+      "bytes": 1666,
+      "sha256": "95447caa3bd8af1f39506f91eae821a41e9490473b734fd2bfcccffe2da9de4e"
+    },
+    {
+      "path": "tests/runtime_save_load_monitor.lua",
+      "source": "tests\\runtime_save_load_monitor.lua",
+      "bytes": 2641,
+      "sha256": "3866b8f27f601ee93083e6ad48be516a45e7194d5a2cd35206d97f80b6cf0f31"
+    },
+    {
+      "path": "tests/runtime_scene_monitor.lua",
+      "source": "tests\\runtime_scene_monitor.lua",
+      "bytes": 846,
+      "sha256": "2fd328d4cf42c302fd0dea6eb18fdfbe5974646720a1bab04dcefe902e1aab9c"
+    },
+    {
+      "path": "tests/source_contracts.cpp",
+      "source": "tests\\source_contracts.cpp",
+      "bytes": 2780,
+      "sha256": "152f014a93df366088624709b7c5e9c862bd673950ab51da374bd2d8c761c4b8"
+    },
+    {
+      "path": "tools/image_rebuild.cpp",
+      "source": "tools\\image_rebuild.cpp",
+      "bytes": 3921,
+      "sha256": "694f596ea7c0c488a7b4682dc50f2b3db3a539e6bb8c1c2aa14d2b72ea8dd9e9"
+    }
+  ]
+}

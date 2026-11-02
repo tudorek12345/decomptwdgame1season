@@ -1,0 +1,174 @@
+{
+  "sha256": "6fe2d6ed58547d166b6041a8bc822b3aa34c709ae125b226445da1582718c742",
+  "input_sha256": "a5d4159961a39b3b3575819905baf1d1a24f3ae05dc7a9edfd4beb1a4c19f0a6",
+  "output": "<WORKSPACE>\\runtime\\WalkingDead101.hybrid.exe",
+  "entry_rva": "0x4d9026",
+  "replacements": [
+    {
+      "rva": "0xcbfc0",
+      "span_bytes": 331,
+      "name": "closest_point_on_segment",
+      "export": "twd_closest_point_on_segment",
+      "source": "reconstructed/geometry.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "83ec0c8b5424",
+      "new_import_iat_rva": "0x8a7310"
+    },
+    {
+      "rva": "0x1cc380",
+      "span_bytes": 173,
+      "name": "crc32",
+      "export": "twd_crc32",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4c240885c9",
+      "new_import_iat_rva": "0x8a7314"
+    },
+    {
+      "rva": "0x1cc430",
+      "span_bytes": 158,
+      "name": "hash_words",
+      "export": "twd_hash_words",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4c24088b44",
+      "new_import_iat_rva": "0x8a7318"
+    },
+    {
+      "rva": "0x1eecf0",
+      "span_bytes": 71,
+      "name": "crc64_string",
+      "export": "twd_crc64_string",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b44240c8b54",
+      "new_import_iat_rva": "0x8a731c"
+    },
+    {
+      "rva": "0x1eed40",
+      "span_bytes": 78,
+      "name": "crc64_string_ascii_fold",
+      "export": "twd_crc64_string_ascii_fold",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b44240c0fb6",
+      "new_import_iat_rva": "0x8a7320"
+    },
+    {
+      "rva": "0x57ea0",
+      "span_bytes": 16,
+      "name": "symbol_zero",
+      "export": "twd_symbol_zero",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8bc1c7000000",
+      "new_import_iat_rva": "0x8a7324"
+    },
+    {
+      "rva": "0x57eb0",
+      "span_bytes": 31,
+      "name": "symbol_from_text",
+      "export": "twd_symbol_from_text",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424045650",
+      "new_import_iat_rva": "0x8a7328"
+    },
+    {
+      "rva": "0x57ed0",
+      "span_bytes": 19,
+      "name": "symbol_copy",
+      "export": "twd_symbol_copy",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8bc18b4c2404",
+      "new_import_iat_rva": "0x8a732c"
+    },
+    {
+      "rva": "0x57ef0",
+      "span_bytes": 16,
+      "name": "symbol_from_value",
+      "export": "twd_symbol_from_value",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424048b54",
+      "new_import_iat_rva": "0x8a7330"
+    },
+    {
+      "rva": "0x57f00",
+      "span_bytes": 32,
+      "name": "symbol_append",
+      "export": "twd_symbol_append",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b442404568b",
+      "new_import_iat_rva": "0x8a7334"
+    },
+    {
+      "rva": "0x57f20",
+      "span_bytes": 9,
+      "name": "symbol_identity",
+      "export": "twd_symbol_identity",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4424048b54",
+      "new_import_iat_rva": "0x8a7338"
+    },
+    {
+      "rva": "0x57f30",
+      "span_bytes": 45,
+      "name": "symbol_compare32",
+      "export": "twd_symbol_compare32",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4c24108b54",
+      "new_import_iat_rva": "0x8a733c"
+    },
+    {
+      "rva": "0x57f60",
+      "span_bytes": 39,
+      "name": "symbol_from_string32",
+      "export": "twd_symbol_from_string32",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424048378",
+      "new_import_iat_rva": "0x8a7340"
+    },
+    {
+      "rva": "0x57f90",
+      "span_bytes": 37,
+      "name": "symbol_assign_string32",
+      "export": "twd_symbol_assign_string32",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424048378",
+      "new_import_iat_rva": "0x8a7344"
+    }
+  ],
+  "dll_sha256": "5bb3afc9e04df73fbe2cde97d90b65114748abb9b5397383df6a68b363138971",
+  "source_reconstructed_functions": 14,
+  "validation": [
+    {
+      "report": "reports/geometry-comparison.json",
+      "cases": 100032,
+      "failed": 0
+    },
+    {
+      "report": "reports/geometry-dll-comparison.json",
+      "cases": 100032,
+      "failed": 0
+    },
+    {
+      "report": "reports/hash-symbol-static-comparison.json",
+      "cases": 1866255,
+      "failed": 0
+    },
+    {
+      "report": "reports/hash-symbol-dll-comparison.json",
+      "cases": 1866255,
+      "failed": 0
+    }
+  ],
+  "remaining_engine": "Original captured machine code; not a standalone source rebuild",
+  "parser_warnings": []
+}

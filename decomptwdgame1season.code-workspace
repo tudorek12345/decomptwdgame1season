@@ -1,0 +1,8 @@
+{
+  "folders": [{"path": "."}],
+  "settings": {
+    "files.exclude": {"**/*.done.json": true},
+    "search.exclude": {"native-analysis/**": true, "sources/**": true, "build/**": true},
+    "files.associations": {"*.lua": "lua"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "module_sha256": "44a5ff21cbb085812c48179259141ff5c83eaeaa3423b4734b43533df0a2528d",
+  "rva": "0xcbfc0",
+  "end_rva_inclusive": "0xcc10a",
+  "bytes_sha256": "13a5d8f965bc269dcaefc3d32228ec147f70a9c0abbc250d99e4e77f2761870d",
+  "abi": "x86 cdecl: Vec3* fn(Vec3* out, const Vec3* start, const Vec3* end, const Vec3* point)",
+  "semantic_name": "closest_point_on_segment (inferred)",
+  "side_effects": "writes 12 bytes to out; no calls or globals; all four arguments must reference valid 12-byte buffers",
+  "degenerate_segment": "division 0/0 propagates NaNs",
+  "aliases": "output may alias one input; tested independently",
+  "original_name_known": false
+}

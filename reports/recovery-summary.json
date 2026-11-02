@@ -1,0 +1,358 @@
+{
+  "native": {
+    "text_virtual_bytes": 5752620,
+    "recognized_functions": 18299,
+    "function_body_union_bytes": 4837074,
+    "decoded_instructions": 1565549,
+    "decoded_instruction_bytes": 5093279,
+    "undecoded_cc_bytes": 194579,
+    "undecoded_zero_bytes": 45844,
+    "undecoded_nop_bytes": 861,
+    "other_undecoded_bytes": 418057,
+    "caveat": "Undecoded bytes can be padding, jump tables, constants, or missed code. Function recognition and decompile success do not establish source or behavioral equivalence."
+  },
+  "successful_function_exports": 18299,
+  "failed_function_exports": [],
+  "functions_with_decompiler_warnings": 5060,
+  "lua_named_functions": 981,
+  "rtti_type_descriptors": 1800,
+  "validated_vtable_candidates": 1082,
+  "archives_surveyed": 134,
+  "archive_index_failures_remaining": 0,
+  "unique_script_variants": 622,
+  "unique_nonmod_script_variants": 595,
+  "syntax_checked_script_variants": 622,
+  "source_reconstructed_native_functions": 14,
+  "geometry_comparison": {
+    "cases": 100032,
+    "failed": 0,
+    "bit_exact": 100032,
+    "max_absolute_error": 0,
+    "test_exe_sha256": "1f3e4e8365e9d65700bbf612cbc9d7a19d4c15e4990405f9066ebdd46657106d"
+  },
+  "hash_symbol_comparison": {
+    "mode": "dll",
+    "functions": [
+      {
+        "name": "crc32",
+        "cases": 116572,
+        "failed": 0
+      },
+      {
+        "name": "hash_words",
+        "cases": 116561,
+        "failed": 0
+      },
+      {
+        "name": "crc64_string",
+        "cases": 116560,
+        "failed": 0
+      },
+      {
+        "name": "crc64_string_ascii_fold",
+        "cases": 116560,
+        "failed": 0
+      },
+      {
+        "name": "symbol_zero",
+        "cases": 50000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_from_text",
+        "cases": 50000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_copy",
+        "cases": 100000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_from_value",
+        "cases": 50000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_append",
+        "cases": 50000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_identity",
+        "cases": 50000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_compare32",
+        "cases": 50000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_from_string32",
+        "cases": 100000,
+        "failed": 0
+      },
+      {
+        "name": "symbol_assign_string32",
+        "cases": 100000,
+        "failed": 0
+      },
+      {
+        "name": "generated_tables",
+        "cases": 2,
+        "failed": 0
+      },
+      {
+        "name": "concurrent_hashes",
+        "cases": 800000,
+        "failed": 0
+      }
+    ],
+    "cases": 1866255,
+    "failed": 0,
+    "test_exe_sha256": "39a92ae0d263a5b6eb5c02840a530980ee749d084bb602c098cd6f70d73cc1ef",
+    "dll_sha256": "5bb3afc9e04df73fbe2cde97d90b65114748abb9b5397383df6a68b363138971"
+  },
+  "source_only_game_rebuild_complete": false,
+  "binary_reconstruction": {
+    "sha256": "a5d4159961a39b3b3575819905baf1d1a24f3ae05dc7a9edfd4beb1a4c19f0a6",
+    "entry_rva": "0x4d9026",
+    "namespace_replacements": 3,
+    "contains_original_machine_code": true,
+    "source_engine_rebuilt": false
+  },
+  "hybrid_build": {
+    "sha256": "6fe2d6ed58547d166b6041a8bc822b3aa34c709ae125b226445da1582718c742",
+    "input_sha256": "a5d4159961a39b3b3575819905baf1d1a24f3ae05dc7a9edfd4beb1a4c19f0a6",
+    "output": "<WORKSPACE>\\runtime\\WalkingDead101.hybrid.exe",
+    "entry_rva": "0x4d9026",
+    "replacements": [
+      {
+        "rva": "0xcbfc0",
+        "span_bytes": 331,
+        "name": "closest_point_on_segment",
+        "export": "twd_closest_point_on_segment",
+        "source": "reconstructed/geometry.cpp",
+        "abi": "cdecl",
+        "expected_prefix": "83ec0c8b5424",
+        "new_import_iat_rva": "0x8a7310"
+      },
+      {
+        "rva": "0x1cc380",
+        "span_bytes": 173,
+        "name": "crc32",
+        "export": "twd_crc32",
+        "source": "reconstructed/hash.cpp",
+        "abi": "cdecl",
+        "expected_prefix": "8b4c240885c9",
+        "new_import_iat_rva": "0x8a7314"
+      },
+      {
+        "rva": "0x1cc430",
+        "span_bytes": 158,
+        "name": "hash_words",
+        "export": "twd_hash_words",
+        "source": "reconstructed/hash.cpp",
+        "abi": "cdecl",
+        "expected_prefix": "8b4c24088b44",
+        "new_import_iat_rva": "0x8a7318"
+      },
+      {
+        "rva": "0x1eecf0",
+        "span_bytes": 71,
+        "name": "crc64_string",
+        "export": "twd_crc64_string",
+        "source": "reconstructed/hash.cpp",
+        "abi": "cdecl",
+        "expected_prefix": "8b44240c8b54",
+        "new_import_iat_rva": "0x8a731c"
+      },
+      {
+        "rva": "0x1eed40",
+        "span_bytes": 78,
+        "name": "crc64_string_ascii_fold",
+        "export": "twd_crc64_string_ascii_fold",
+        "source": "reconstructed/hash.cpp",
+        "abi": "cdecl",
+        "expected_prefix": "8b44240c0fb6",
+        "new_import_iat_rva": "0x8a7320"
+      },
+      {
+        "rva": "0x57ea0",
+        "span_bytes": 16,
+        "name": "symbol_zero",
+        "export": "twd_symbol_zero",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "thiscall",
+        "expected_prefix": "8bc1c7000000",
+        "new_import_iat_rva": "0x8a7324"
+      },
+      {
+        "rva": "0x57eb0",
+        "span_bytes": 31,
+        "name": "symbol_from_text",
+        "export": "twd_symbol_from_text",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "thiscall",
+        "expected_prefix": "8b4424045650",
+        "new_import_iat_rva": "0x8a7328"
+      },
+      {
+        "rva": "0x57ed0",
+        "span_bytes": 19,
+        "name": "symbol_copy",
+        "export": "twd_symbol_copy",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "thiscall",
+        "expected_prefix": "8bc18b4c2404",
+        "new_import_iat_rva": "0x8a732c"
+      },
+      {
+        "rva": "0x57ef0",
+        "span_bytes": 16,
+        "name": "symbol_from_value",
+        "export": "twd_symbol_from_value",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "thiscall",
+        "expected_prefix": "8b4424048b54",
+        "new_import_iat_rva": "0x8a7330"
+      },
+      {
+        "rva": "0x57f00",
+        "span_bytes": 32,
+        "name": "symbol_append",
+        "export": "twd_symbol_append",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "thiscall",
+        "expected_prefix": "8b442404568b",
+        "new_import_iat_rva": "0x8a7334"
+      },
+      {
+        "rva": "0x57f20",
+        "span_bytes": 9,
+        "name": "symbol_identity",
+        "export": "twd_symbol_identity",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "cdecl",
+        "expected_prefix": "8b4424048b54",
+        "new_import_iat_rva": "0x8a7338"
+      },
+      {
+        "rva": "0x57f30",
+        "span_bytes": 45,
+        "name": "symbol_compare32",
+        "export": "twd_symbol_compare32",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "cdecl",
+        "expected_prefix": "8b4c24108b54",
+        "new_import_iat_rva": "0x8a733c"
+      },
+      {
+        "rva": "0x57f60",
+        "span_bytes": 39,
+        "name": "symbol_from_string32",
+        "export": "twd_symbol_from_string32",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "thiscall",
+        "expected_prefix": "8b4424048378",
+        "new_import_iat_rva": "0x8a7340"
+      },
+      {
+        "rva": "0x57f90",
+        "span_bytes": 37,
+        "name": "symbol_assign_string32",
+        "export": "twd_symbol_assign_string32",
+        "source": "reconstructed/symbol.cpp",
+        "abi": "thiscall",
+        "expected_prefix": "8b4424048378",
+        "new_import_iat_rva": "0x8a7344"
+      }
+    ],
+    "dll_sha256": "5bb3afc9e04df73fbe2cde97d90b65114748abb9b5397383df6a68b363138971",
+    "source_reconstructed_functions": 14,
+    "validation": [
+      {
+        "report": "reports/geometry-comparison.json",
+        "cases": 100032,
+        "failed": 0
+      },
+      {
+        "report": "reports/geometry-dll-comparison.json",
+        "cases": 100032,
+        "failed": 0
+      },
+      {
+        "report": "reports/hash-symbol-static-comparison.json",
+        "cases": 1866255,
+        "failed": 0
+      },
+      {
+        "report": "reports/hash-symbol-dll-comparison.json",
+        "cases": 1866255,
+        "failed": 0
+      }
+    ],
+    "remaining_engine": "Original captured machine code; not a standalone source rebuild",
+    "parser_warnings": []
+  },
+  "runtime_limit": "Opening scene, source replacement calls and one serialized sentinel save/reload cycle observed. Full gameplay interaction, chapter progression, campaign parity and source-only engine rebuild remain unverified. Consult runtime_evidence_matches_current_build after source changes.",
+  "game_scene_observed": "adv_streetoutskirts.scene",
+  "highest_logged_game_scene_frame": 15900,
+  "runtime_evidence_matches_current_build": true,
+  "source_replacement_calls": {
+    "closest_point_on_segment": 0,
+    "crc32": 4576,
+    "hash_words": 0,
+    "crc64_string": 0,
+    "crc64_string_ascii_fold": 0,
+    "symbol_zero": 34123414,
+    "symbol_from_text": 1844690,
+    "symbol_copy": 33549268,
+    "symbol_from_value": 470752,
+    "symbol_append": 98615,
+    "symbol_identity": 0,
+    "symbol_compare32": 0,
+    "symbol_from_string32": 1123847,
+    "symbol_assign_string32": 0
+  },
+  "source_replacement_entrypoints_observed": 7,
+  "save_reload_sentinel_verified": true,
+  "post_reload_highest_frame": 17700,
+  "unhandled_exceptions": [],
+  "remaining_original_function_dependencies": 18285,
+  "runtime_acceptance": {
+    "runtime_report": "reports\\runtime-hash-symbol-save-load-v3.json",
+    "scene_log": "reports\\runtime-hash-symbol-save-load-v3.log",
+    "exe_sha256": "6fe2d6ed58547d166b6041a8bc822b3aa34c709ae125b226445da1582718c742",
+    "dll_sha256": "5bb3afc9e04df73fbe2cde97d90b65114748abb9b5397383df6a68b363138971",
+    "pid": 19076,
+    "source_replacement_calls": {
+      "closest_point_on_segment": 0,
+      "crc32": 4576,
+      "hash_words": 0,
+      "crc64_string": 0,
+      "crc64_string_ascii_fold": 0,
+      "symbol_zero": 34123414,
+      "symbol_from_text": 1844690,
+      "symbol_copy": 33549268,
+      "symbol_from_value": 470752,
+      "symbol_append": 98615,
+      "symbol_identity": 0,
+      "symbol_compare32": 0,
+      "symbol_from_string32": 1123847,
+      "symbol_assign_string32": 0
+    },
+    "source_replacement_entrypoints_observed": 7,
+    "total_replacement_entry_calls": 71215162,
+    "save_reload_sentinel_verified": true,
+    "post_reload_highest_frame": 17700,
+    "unhandled_exceptions": [],
+    "save_file": "<USER_HOME>\\OneDrive\\Documents\\TWD-Rebuild-01\\runtime\\recovery_hash_symbols.save",
+    "save_bytes": 16183,
+    "save_sha256": "e124226d99438a5cb8c06a3740b38d6466ff974983cbf92cd438a329d8d8b023",
+    "preserved_save": "build\\runtime-save-evidence\\e124226d99438a5cb8c06a3740b38d6466ff974983cbf92cd438a329d8d8b023.save",
+    "recorded_utc": "2026-11-02T04:02:53.045227+00:00",
+    "limits": "One opening-scene save/reload test with a serialized sentinel. Entry counters exclude calls between source routines. No input-driven chapter completion or whole-engine/source-only equivalence."
+  }
+}

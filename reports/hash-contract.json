@@ -1,0 +1,149 @@
+{
+  "input_sha256": "39df65b5e03e68703e04da90d516fbc15392706fbc9a4580f2aaf44ef78c33d9",
+  "functions": [
+    {
+      "rva": "0x1cc380",
+      "span_bytes": 173,
+      "name": "crc32",
+      "export": "twd_crc32",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4c240885c9"
+    },
+    {
+      "rva": "0x1cc430",
+      "span_bytes": 158,
+      "name": "hash_words",
+      "export": "twd_hash_words",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4c24088b44"
+    },
+    {
+      "rva": "0x1eecf0",
+      "span_bytes": 71,
+      "name": "crc64_string",
+      "export": "twd_crc64_string",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b44240c8b54"
+    },
+    {
+      "rva": "0x1eed40",
+      "span_bytes": 78,
+      "name": "crc64_string_ascii_fold",
+      "export": "twd_crc64_string_ascii_fold",
+      "source": "reconstructed/hash.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b44240c0fb6"
+    },
+    {
+      "rva": "0x57ea0",
+      "span_bytes": 16,
+      "name": "symbol_zero",
+      "export": "twd_symbol_zero",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8bc1c7000000"
+    },
+    {
+      "rva": "0x57eb0",
+      "span_bytes": 31,
+      "name": "symbol_from_text",
+      "export": "twd_symbol_from_text",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424045650"
+    },
+    {
+      "rva": "0x57ed0",
+      "span_bytes": 19,
+      "name": "symbol_copy",
+      "export": "twd_symbol_copy",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8bc18b4c2404"
+    },
+    {
+      "rva": "0x57ef0",
+      "span_bytes": 16,
+      "name": "symbol_from_value",
+      "export": "twd_symbol_from_value",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424048b54"
+    },
+    {
+      "rva": "0x57f00",
+      "span_bytes": 32,
+      "name": "symbol_append",
+      "export": "twd_symbol_append",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b442404568b"
+    },
+    {
+      "rva": "0x57f20",
+      "span_bytes": 9,
+      "name": "symbol_identity",
+      "export": "twd_symbol_identity",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4424048b54"
+    },
+    {
+      "rva": "0x57f30",
+      "span_bytes": 45,
+      "name": "symbol_compare32",
+      "export": "twd_symbol_compare32",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "cdecl",
+      "expected_prefix": "8b4c24108b54"
+    },
+    {
+      "rva": "0x57f60",
+      "span_bytes": 39,
+      "name": "symbol_from_string32",
+      "export": "twd_symbol_from_string32",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424048378"
+    },
+    {
+      "rva": "0x57f90",
+      "span_bytes": 37,
+      "name": "symbol_assign_string32",
+      "export": "twd_symbol_assign_string32",
+      "source": "reconstructed/symbol.cpp",
+      "abi": "thiscall",
+      "expected_prefix": "8b4424048378"
+    }
+  ],
+  "crc64_table_rva": "0x5923f8",
+  "crc64_table_generated_exact": true,
+  "ascii_fold_table_rva": "0x592bf8",
+  "ascii_fold_generated_exact": true,
+  "oracle_relocations": [
+    "0x1cc3b2",
+    "0x1cc3c8",
+    "0x1cc3de",
+    "0x1cc3f4",
+    "0x1cc421",
+    "0x1cc45e",
+    "0x1cc476",
+    "0x1cc48e",
+    "0x1cc4a3",
+    "0x1cc4bf",
+    "0x1eed21",
+    "0x1eed2b",
+    "0x1eed63",
+    "0x1eed75",
+    "0x1eed7f"
+  ],
+  "contract": "cdecl checksums return EAX or EDX:EAX. Symbol methods use ECX this and callee stack cleanup; fastcall DLL bridges consume unused EDX. Symbol is two ordered 32-bit words. String32 is 16-byte inline storage plus length at +16 and capacity at +20; capacity >=16 selects a 32-bit pointer at +0. CRC64 strings require a readable NUL terminator and do not accept null. Only ASCII A-Z are folded; high bytes unchanged. CRC32 null returns 0 regardless of length/seed. Word hash count is words; unaligned little-endian loads.",
+  "excluded_buffer_crc64": {
+    "rva": "0x1eec10",
+    "reason": "MOVSX without masking uses negative table indexes for bytes >=128; preceding image data includes relocatable pointers. Discovered/exported, not replaced with a falsely standard CRC algorithm."
+  },
+  "limits": "Observed contracts, inferred semantic names. Invalid pointers, nonterminated strings, simultaneous writes and invalid capacity/storage pairs are outside the valid domain. No original string allocator or ownership is reconstructed."
+}

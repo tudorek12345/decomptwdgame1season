@@ -1,0 +1,17 @@
+LIBRARY twd_reconstructed
+EXPORTS
+    twd_closest_point_on_segment
+    twd_crc32
+    twd_hash_words
+    twd_crc64_string
+    twd_crc64_string_ascii_fold
+    twd_symbol_zero=@twd_symbol_zero@8
+    twd_symbol_from_text=@twd_symbol_from_text@12
+    twd_symbol_copy=@twd_symbol_copy@12
+    twd_symbol_from_value=@twd_symbol_from_value@16
+    twd_symbol_append=@twd_symbol_append@12
+    twd_symbol_identity
+    twd_symbol_compare32
+    twd_symbol_from_string32=@twd_symbol_from_string32@12
+    twd_symbol_assign_string32=@twd_symbol_assign_string32@12
+    twd_reconstruction_counters DATA

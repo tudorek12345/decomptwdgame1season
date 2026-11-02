@@ -1,0 +1,60 @@
+{
+  "snapshot_date": "2026-11-02",
+  "research_commit": "9a6391f",
+  "target": "The Walking Dead: Season One / Steam / Windows x86",
+  "source_reconstruction": {
+    "implemented_functions": 14,
+    "recognized_function_denominator": 18299,
+    "function_count_percent": 0.07650691294606263,
+    "remaining_original_code_functions": 18285,
+    "not_effort_weighted": true
+  },
+  "reference_export": {
+    "successful": 18299,
+    "recognized": 18299,
+    "percent": 100,
+    "denominator_is_recognized_functions_only": true
+  },
+  "scripts": {
+    "recovered_variants": 622,
+    "syntax_checked": 622,
+    "nonmod_variants": 595
+  },
+  "archives": {
+    "indexed": 134,
+    "surveyed": 134
+  },
+  "code_coverage": {
+    "text_virtual_bytes": 5752620,
+    "recognized_functions": 18299,
+    "function_body_union_bytes": 4837074,
+    "decoded_instructions": 1565549,
+    "decoded_instruction_bytes": 5093279,
+    "undecoded_cc_bytes": 194579,
+    "undecoded_zero_bytes": 45844,
+    "undecoded_nop_bytes": 861,
+    "other_undecoded_bytes": 418057,
+    "caveat": "Undecoded bytes can be padding, jump tables, constants, or missed code. Function recognition and decompile success do not establish source or behavioral equivalence."
+  },
+  "tests": {
+    "geometry_cases_per_mode": 100032,
+    "hash_symbol_cases_per_mode": 1866255,
+    "modes": [
+      "static",
+      "dll"
+    ],
+    "total_comparisons": 3932574,
+    "failures": 0
+  },
+  "runtime": {
+    "replacement_entry_calls": 71215162,
+    "observed_replacement_entrypoints": 7,
+    "scene": "adv_streetoutskirts.scene",
+    "save_reload_marker_verified": true,
+    "post_reload_frames": 17700,
+    "unhandled_exceptions": 0,
+    "duration_seconds": 100
+  },
+  "full_game_completion_percent": null,
+  "full_source_rebuild_complete": false
+}

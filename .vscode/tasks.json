@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"Configure public C++","type":"process","command":"cmake","args":["--preset","vs2022-x86","-DTWD_BUILD_CAPTURE_TESTS=OFF"],"problemMatcher":[]},
+    {"label":"Build public C++","type":"process","command":"cmake","args":["--build","--preset","x86-release","--parallel"],"dependsOn":"Configure public C++","group":{"kind":"build","isDefault":true},"problemMatcher":"$msCompile"},
+    {"label":"Test public contracts","type":"process","command":"ctest","args":["--preset","x86-release","--output-on-failure"],"dependsOn":"Build public C++","group":"test","problemMatcher":[]}
+  ]
+}

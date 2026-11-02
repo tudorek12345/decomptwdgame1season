@@ -1,0 +1,5 @@
+{
+  "direct_calls_into_text": 111240,
+  "calls_into_existing_function_interiors": 0,
+  "unowned_targets": []
+}

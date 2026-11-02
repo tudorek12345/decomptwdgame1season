@@ -1,0 +1,128 @@
+[
+  {
+    "rva": "0xcbfc0",
+    "span_bytes": 331,
+    "name": "closest_point_on_segment",
+    "export": "twd_closest_point_on_segment",
+    "source": "reconstructed/geometry.cpp",
+    "abi": "cdecl",
+    "expected_prefix": "83ec0c8b5424"
+  },
+  {
+    "rva": "0x1cc380",
+    "span_bytes": 173,
+    "name": "crc32",
+    "export": "twd_crc32",
+    "source": "reconstructed/hash.cpp",
+    "abi": "cdecl",
+    "expected_prefix": "8b4c240885c9"
+  },
+  {
+    "rva": "0x1cc430",
+    "span_bytes": 158,
+    "name": "hash_words",
+    "export": "twd_hash_words",
+    "source": "reconstructed/hash.cpp",
+    "abi": "cdecl",
+    "expected_prefix": "8b4c24088b44"
+  },
+  {
+    "rva": "0x1eecf0",
+    "span_bytes": 71,
+    "name": "crc64_string",
+    "export": "twd_crc64_string",
+    "source": "reconstructed/hash.cpp",
+    "abi": "cdecl",
+    "expected_prefix": "8b44240c8b54"
+  },
+  {
+    "rva": "0x1eed40",
+    "span_bytes": 78,
+    "name": "crc64_string_ascii_fold",
+    "export": "twd_crc64_string_ascii_fold",
+    "source": "reconstructed/hash.cpp",
+    "abi": "cdecl",
+    "expected_prefix": "8b44240c0fb6"
+  },
+  {
+    "rva": "0x57ea0",
+    "span_bytes": 16,
+    "name": "symbol_zero",
+    "export": "twd_symbol_zero",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "thiscall",
+    "expected_prefix": "8bc1c7000000"
+  },
+  {
+    "rva": "0x57eb0",
+    "span_bytes": 31,
+    "name": "symbol_from_text",
+    "export": "twd_symbol_from_text",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "thiscall",
+    "expected_prefix": "8b4424045650"
+  },
+  {
+    "rva": "0x57ed0",
+    "span_bytes": 19,
+    "name": "symbol_copy",
+    "export": "twd_symbol_copy",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "thiscall",
+    "expected_prefix": "8bc18b4c2404"
+  },
+  {
+    "rva": "0x57ef0",
+    "span_bytes": 16,
+    "name": "symbol_from_value",
+    "export": "twd_symbol_from_value",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "thiscall",
+    "expected_prefix": "8b4424048b54"
+  },
+  {
+    "rva": "0x57f00",
+    "span_bytes": 32,
+    "name": "symbol_append",
+    "export": "twd_symbol_append",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "thiscall",
+    "expected_prefix": "8b442404568b"
+  },
+  {
+    "rva": "0x57f20",
+    "span_bytes": 9,
+    "name": "symbol_identity",
+    "export": "twd_symbol_identity",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "cdecl",
+    "expected_prefix": "8b4424048b54"
+  },
+  {
+    "rva": "0x57f30",
+    "span_bytes": 45,
+    "name": "symbol_compare32",
+    "export": "twd_symbol_compare32",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "cdecl",
+    "expected_prefix": "8b4c24108b54"
+  },
+  {
+    "rva": "0x57f60",
+    "span_bytes": 39,
+    "name": "symbol_from_string32",
+    "export": "twd_symbol_from_string32",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "thiscall",
+    "expected_prefix": "8b4424048378"
+  },
+  {
+    "rva": "0x57f90",
+    "span_bytes": 37,
+    "name": "symbol_assign_string32",
+    "export": "twd_symbol_assign_string32",
+    "source": "reconstructed/symbol.cpp",
+    "abi": "thiscall",
+    "expected_prefix": "8b4424048378"
+  }
+]

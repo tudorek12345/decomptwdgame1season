@@ -1,0 +1,12 @@
+{
+  "text_virtual_bytes": 5752620,
+  "recognized_functions": 18299,
+  "function_body_union_bytes": 4837074,
+  "decoded_instructions": 1565549,
+  "decoded_instruction_bytes": 5093279,
+  "undecoded_cc_bytes": 194579,
+  "undecoded_zero_bytes": 45844,
+  "undecoded_nop_bytes": 861,
+  "other_undecoded_bytes": 418057,
+  "caveat": "Undecoded bytes can be padding, jump tables, constants, or missed code. Function recognition and decompile success do not establish source or behavioral equivalence."
+}

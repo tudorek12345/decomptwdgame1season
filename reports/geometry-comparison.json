@@ -1,0 +1,7 @@
+{
+  "cases": 100032,
+  "failed": 0,
+  "bit_exact": 100032,
+  "max_absolute_error": 0,
+  "test_exe_sha256": "1f3e4e8365e9d65700bbf612cbc9d7a19d4c15e4990405f9066ebdd46657106d"
+}

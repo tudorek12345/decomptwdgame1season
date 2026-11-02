@@ -1,0 +1,27 @@
+name: Public source build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows-x86:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - run: cmake --preset vs2022-x86 -DTWD_BUILD_CAPTURE_TESTS=OFF
+      - run: cmake --build --preset x86-release --parallel
+      - run: ctest --preset x86-release --output-on-failure
+  portable-library:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - run: cmake -S . -B build/portable -DCMAKE_BUILD_TYPE=Release -DTWD_BUILD_CAPTURE_TESTS=OFF
+      - run: cmake --build build/portable --parallel
+      - run: ctest --test-dir build/portable --output-on-failure

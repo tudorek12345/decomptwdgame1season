@@ -1,0 +1,21 @@
+# Local game/research data must never enter the publication history.
+sources/
+recovered/
+native-analysis/
+runtime/
+build/
+.vs/
+__pycache__/
+tools/ttarchext/
+tools/telltale-lua/
+tests/original_*.hpp
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
+*.exp
+*.save
+*.ttarch
+*.ttarch2
+*.bin
